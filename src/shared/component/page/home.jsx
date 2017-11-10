@@ -37,12 +37,6 @@ const HomePage = ({ classes }: { classes: Object }) => (
         <h1 className="display-3 mb-4">{APP_NAME}</h1>
       </div>
     </div>
-    <div className="col-md-4 mb-4">
-      <h3 className="mb-3">JSS</h3>
-      <p className={classes.hoverMe}>Hover me.</p>
-      <p className={classes.resizeMe}>Resize the window.</p>
-      <button className={classes.specialButton}>Composition</button>
-    </div>
     <div className="container">
       <div className="row">
         <div className="col-md-4 mb-4">
@@ -52,7 +46,10 @@ const HomePage = ({ classes }: { classes: Object }) => (
           </p>
         </div>
         <div className="col-md-4 mb-4">
-          <h3 className="mb-3">JSS (soon)</h3>
+          <h3 className="mb-3">JSS</h3>
+          <p className={classes.hoverMe}>Hover me.</p>
+          <p className={classes.resizeMe}>Resize the window.</p>
+          <button className={classes.specialButton}>Composition</button>
         </div>
         <div className="col-md-4 mb-4">
           <h3 className="mb-3">Websockets</h3>
